@@ -7,7 +7,7 @@ set -e
 
 (/usr/bin/gem spec bundler -v '~> 1.2.0' > /dev/null 2>&1) || {
   /usr/bin/sudo -p "Need to install Bundler for system ruby, password for sudo: " \
-  /usr/bin/gem install bundler -v '~> 1.2.0' --no-rdoc --no-ri
+  /usr/bin/gem install --http-proxy http://127.0.0.1:8087 bundler -v '~> 1.2.0' --no-rdoc --no-ri
 }
 
 # We don't want old config hanging around.
