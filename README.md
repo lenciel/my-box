@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Our Boxen
 
 This is a template Boxen project designed for your organization to fork and
@@ -256,3 +257,9 @@ It'll just be listed under the boxen org so folks can find it more easily.
 See [FAQ](https://github.com/boxen/our-boxen/blob/master/docs/faq.md).
 
 Use Issues or #boxen on irc.freenode.net.
+=======
+my-box
+======
+
+Lenciel's boxen box
+>>>>>>> 14621d42a1ec656425b36baf84c1074e206bb392
