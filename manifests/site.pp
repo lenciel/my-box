@@ -72,6 +72,13 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # leciel defined
+  include chrome
+  include iterm2::stable
+  include ccleaner
+  include skype
+  include sublime_text_2
+
   # common, useful packages
   package {
     [
