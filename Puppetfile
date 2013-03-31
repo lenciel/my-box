@@ -35,6 +35,7 @@ github "iterm2",   "1.0.2"
 github "skype",    "1.0.2"
 github "chrome",   "1.1.0"
 github "sublime_text_2",   "1.1.0"
+github "jumpcut",   "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

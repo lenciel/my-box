@@ -78,6 +78,7 @@ node default {
   include ccleaner
   include skype
   include sublime_text_2
+  include jumpcut
 
   # common, useful packages
   package {
