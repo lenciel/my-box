@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "http://ruby.taobao.org"
 
 gem "boxen", "~> 1.0"
 gem "open4", "~> 1.3"

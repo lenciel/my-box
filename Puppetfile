@@ -36,6 +36,9 @@ github "skype",    "1.0.2"
 github "chrome",   "1.1.0"
 github "sublime_text_2",   "1.1.0"
 github "jumpcut",   "1.0.0"
+github "mysql",    "1.1.0", :repo => "lenciel/puppet-mysql"
+
+#github "java",      "1.0.6", :repo => "lenciel/puppet-java"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

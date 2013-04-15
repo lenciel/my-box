@@ -79,6 +79,10 @@ node default {
   include skype
   include sublime_text_2
   include jumpcut
+  #include java
+  include mysql
+  
+  mysql::db {'mydb':}
 
   # common, useful packages
   package {

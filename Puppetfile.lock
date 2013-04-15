@@ -89,6 +89,11 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: lenciel/puppet-mysql
+  specs:
+    mysql (1.1.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -105,6 +110,7 @@ DEPENDENCIES
   inifile (= 0.9.0)
   iterm2 (= 1.0.2)
   jumpcut (= 1.0.0)
+  mysql (= 1.1.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
