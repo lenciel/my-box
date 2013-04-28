@@ -80,7 +80,7 @@ node default {
   include sublime_text_2
   include jumpcut
   #include java
-  include mysql
+  include vagrant
   
   mysql::db {'mydb':}
 
