@@ -54,7 +54,7 @@ node default {
   include git
   include hub
   include nginx
-  include nvm
+  #include nvm
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -62,9 +62,10 @@ node default {
   }
 
   # node versions
-  include nodejs::0-4
-  include nodejs::0-6
-  include nodejs::0-8
+  #include nodejs::0-4
+  #include nodejs::0-6
+  #include nodejs::0-8
+  include nodejs::v0_10
 
   # default ruby versions
   include ruby::1_8_7
@@ -79,10 +80,7 @@ node default {
   include skype
   include sublime_text_2
   include jumpcut
-  #include java
   include vagrant
-  
-  mysql::db {'mydb':}
 
   # common, useful packages
   package {
