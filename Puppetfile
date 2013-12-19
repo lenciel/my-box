@@ -18,8 +18,8 @@ github "boxen", "1.2.0"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",  "1.0.0"
-github "gcc",      "1.0.0"
+github "dnsmasq",  "2.6.6"
+github "gcc",      "1.8.4.2"
 github "git",      "1.0.0"
 github "homebrew", "1.1.2"
 github "hub",      "1.0.0"
