@@ -13,3 +13,5 @@
 vendor/puppet/cache/
 
 /.projects
+
+*.orig
