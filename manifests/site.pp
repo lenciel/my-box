@@ -74,7 +74,7 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
-  # leciel defined
+  # lenciel defined
   include chrome
   include iterm2::stable
   include ccleaner
